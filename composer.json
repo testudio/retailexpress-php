@@ -1,5 +1,5 @@
 {
-  "name": "your-vendor/retailexpress-client",
+  "name": "testudio/retailexpress-php",
   "description": "Retail Express API PHP Client",
   "type": "library",
   "require": {
