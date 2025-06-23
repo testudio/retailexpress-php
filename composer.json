@@ -2,6 +2,7 @@
   "name": "testudio/retailexpress-php",
   "description": "Retail Express API PHP Client",
   "type": "library",
+  "license": "GPL-2.0-or-later",
   "require": {
     "php": ">=8.0",
     "guzzlehttp/guzzle": "^7.0"
