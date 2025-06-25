@@ -36,6 +36,8 @@ $order = $client->getOrder(123);
 
 - Customers: list, get, create, update
 - Products: list, get
+- Product Detail Logs: list, get
+- Product Prices: list, get
 - Orders: list, get
 
 ## Requirements
