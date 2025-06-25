@@ -156,12 +156,10 @@ class RetailExpressClient {
   }
 
   public function getProductDetailsLog(int $page_number = 1, int $page_size = 100, string $filter_by = ''): array {
-    // filter_by=created_on:gte:2025-06-24&order_by=created_on
+    // API docs have error in example, proper way to filter: filter_by=created_on:gte:2025-06-24
     $params = [
       'page_number' => $page_number,
       'page_size' => $page_size,
-    // $filter_by,
-      'filter_by' => 'created_on:gte:2025-06-24',
       'order_by' => 'created_on desc',
     ];
     return $this->request('GET', 'productdetailslog', [], $params);
